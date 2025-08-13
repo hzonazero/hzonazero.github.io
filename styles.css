@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'PixelFont', sans-serif;
     background: var(--rosa);
-    color: var(--negro);
+    color: #111;
     -webkit-font-smoothing: none;
     text-rendering: optimizeSpeed;
     background-image: url('Imagenes/fondo-pixel.png');
