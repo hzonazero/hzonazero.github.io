@@ -12,7 +12,7 @@ body {
     color: var(--negro);
     -webkit-font-smoothing: none;
     text-rendering: optimizeSpeed;
-    background-image: url('imagenes/fondo-pixel.png');
+    background-image: url('Imagenes/fondo-pixel.png');
     background-repeat: repeat;
     background-size: 688px 1024px; /* Ajusta al tamaño real de tu tile pixelart */
 }
