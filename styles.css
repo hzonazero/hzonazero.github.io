@@ -1,4 +1,4 @@
-:root {
+r:root {
     --azul: #086cf7;
     --rosa: #f8096e;
     --blanco: #fff;
@@ -7,9 +7,9 @@
 
 body {
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'PixelFont', sans-serif;
     background: var(--rosa);
-    color: var(--blanco);
+    color: var(--negro);
     -webkit-font-smoothing: none;
     text-rendering: optimizeSpeed;
     background-image: url('imagenes/fondo-pixel.png');
