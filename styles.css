@@ -13,17 +13,13 @@
 }
 
 body {
-    margin: 0;
-    color: var(--texto);
-    background-color: var(--azul);
-    background-image: url('Imagenes/fondo-pixel.png');
-    background-repeat: repeat;
-    background-position: top left;
-    background-size: 688px 1024px;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeSpeed;
+    background-image: url("Imagenes/fondo-pixel.png");
+    background-repeat: no-repeat;       /* Evita que se repita */
+    background-size: cover;             /* Hace que cubra toda la pantalla */
+    background-position: center;        /* Centra la imagen */
+    background-attachment: fixed;       /* Hace que se mantenga estática al hacer scroll */
 }
+
 
 h1 {
     text-align: center;
