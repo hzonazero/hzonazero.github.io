@@ -36,6 +36,16 @@ h1 {
     padding: 20px;
 }
 
+.item img {
+    width: 100%;         /* Ocupa todo el ancho del marco */
+    height: auto;        /* Mantiene la proporción original */
+    max-height: 150px;   /* Límite máximo de altura */
+    object-fit: contain; /* Ajusta sin recortar la imagen */
+    display: block;      /* Quita espacios raros debajo de la imagen */
+    margin: 0 auto;      /* Centra la imagen */
+
+}
+
 .item {
     background-color: 4px solid rgba(200, 200, 200, 0.5); /* gris suave semi-transparente */
     border: #000000; /* negro sólido */
