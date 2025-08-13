@@ -7,7 +7,15 @@ r:root {
 
 body {
     margin: 0;
-    font-family: 'PixelFont', sans-serif;
+@font-face {
+  font-family: 'PixelFont';
+  src: url('fonts/pixel-font.ttf') format('truetype');
+}
+
+body {
+  font-family: 'PixelFont', sans-serif;
+  font-size: 16px; /* Ajusta el tamaño según lo necesites */
+}
     background: var(--rosa);
     color: var(--negro);
     -webkit-font-smoothing: none;
