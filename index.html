@@ -11,11 +11,22 @@
         background: linear-gradient(to bottom, #086cf7, #f8096e);
         color: white;
         padding: 20px;
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: never;
+        text-rendering: optimizeSpeed;
+    }
+    h1, h2, h3, p, select, button, .carrito-item span, label {
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: never;
+        text-rendering: optimizeSpeed;
     }
     h1 {
         text-align: center;
         margin-bottom: 20px;
         text-shadow: 2px 2px black;
+        font-size: 18px;
     }
     .menu {
         display: grid;
@@ -49,6 +60,11 @@
         font-weight: bold;
         color: #f8f8f8;
         font-size: 12px;
+    }
+    label {
+        display: block;
+        font-size: 10px;
+        margin-top: 5px;
     }
     select, button {
         margin-top: 10px;
