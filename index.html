@@ -6,7 +6,7 @@
     <title>Heladería Zona Zero</title>
     <style>
         body {
-            font-family: Fantasy, sans-serif;
+            font-family: Monaco, sans-serif;
             margin: 0;
             background: linear-gradient(to bottom, #ffecd2, #fcb69f);
             color: #333;
@@ -86,10 +86,10 @@
     <h1>Menú de Heladería</h1>
     <div class="menu">
         <div class="item">
-            <img src="imagenes/vainilla.jpg" alt="Helado de Vainilla">
+            <img src="imagenes/Ensalada de Frutas.jpg" alt="Ensalada de Frutas">
             <h3>Helado de Vainilla</h3>
-            <p>$5.000</p>
-            <button onclick="agregarAlCarrito('Helado de Vainilla', 5000)">Agregar al carrito</button>
+            <p>$17.000</p>
+            <button onclick="agregarAlCarrito('HEnsalada de frutas', 17000)">Agregar al carrito</button>
         </div>
         <div class="item">
             <img src="imagenes/chocolate.jpg" alt="Helado de Chocolate">
@@ -98,26 +98,26 @@
             <button onclick="agregarAlCarrito('Helado de Chocolate', 5000)">Agregar al carrito</button>
         </div>
         <div class="item">
-            <img src="imagenes/fresa.jpg" alt="Helado de Fresa">
-            <h3>Helado de Fresa</h3>
-            <p>$5.000</p>
+            <img src="imagenes/Helado de Yogurt.jpg" alt="Helado de Yogurt">
+            <h3>Helado de Yogurt</h3>
+            <p>$9.000</p>
             <label>Elige Topping 1:</label>
             <select id="topping1">
                 <option value="">--Selecciona--</option>
-                <option value="Chispas de chocolate">Chispas de chocolate</option>
-                <option value="Jarabe de fresa">Jarabe de fresa</option>
+                <option value="Chips de chocolate">Chips de chocolate</option>
+                <option value="Perlas Explosivas/Maracuya">Perlas Explosivas/Maracuya</option>
                 <option value="Nueces">Nueces</option>
-                <option value="Trozos de galleta">Trozos de galleta</option>
+                <option value="Galleta Oreo">Galleta Oreo</option>
             </select>
             <label>Elige Topping 2:</label>
             <select id="topping2">
                 <option value="">--Selecciona--</option>
-                <option value="Chispas de chocolate">Chispas de chocolate</option>
-                <option value="Jarabe de fresa">Jarabe de fresa</option>
+                <option value="Chips de chocolate">Chips de chocolate</option>
+                <option value="Perlas Explosivas/Maracuya">Perlas Explosivas/Maracuya</option>
                 <option value="Nueces">Nueces</option>
-                <option value="Trozos de galleta">Trozos de galleta</option>
+                <option value="Galleta Oreo">Galleta Oreo</option>
             </select>
-            <button onclick="agregarHeladoFresa()">Agregar al carrito</button>
+            <button onclick="agregarHeladoYogurt()">Agregar al carrito</button>
         </div>
     </div>
 
@@ -125,11 +125,6 @@
         <h2>Carrito</h2>
         <div id="lista-carrito"></div>
         <p><strong>Total:</strong> $<span id="total">0</span></p>
-    </div>
-
-    <div class="qr">
-        <h3>Escanea para ver el menú</h3>
-        <img src="imagenes/qr-menu.png" alt="Código QR">
     </div>
 
     <script>
