@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive;
-    background: var(--azul);
+    background: var(--rosa);
     color: var(--blanco);
     -webkit-font-smoothing: none;
     text-rendering: optimizeSpeed;
